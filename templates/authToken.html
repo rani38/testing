@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Token PAge</title>
+</head>
+<body>
+{% if response_data %}
+    <a href="/api/data?api_key={{response_data.api_key}}">Click here to get authorised</a>
+{% endif %}
+<p>Token Page</p>
+</body>
+</html>

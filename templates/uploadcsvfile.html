@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV File</title>
+</head>
+<body>
+    <form method="POST" enctype="multipart/form-data" action="/upload-csv">
+        <label for="csv-file1">Select CSV file 1:</label>
+        <input type="file" name="csv-file1" id="csv-file1"><br>
+        <label for="csv-file2">Select CSV file 2:</label>
+        <input type="file" name="csv-file2" id="csv-file2"><br>
+        <button type="submit">Submit Files</button>
+      </form>
+</body>
+</html>
